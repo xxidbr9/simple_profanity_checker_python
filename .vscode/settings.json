@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/nando/CODE/PYTHON/Python_bangkit/simple_rest_flask/bin/python",
+    "python.formatting.provider": "black"
+}
