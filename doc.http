@@ -47,10 +47,6 @@ Content-Type: application/json
 }
 
 
-### POST NO DATA TEXT
-POST {{baseUrl}}/bad_word
-Content-Type: application/json
-
-{
-    "text":""
-}
+### GET NO DATA TEXT
+GET {{baseUrl}}/check
+Accept: application/hal+json
