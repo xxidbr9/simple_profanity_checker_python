@@ -1,4 +1,6 @@
-@baseUrl = http://localhost:7000/api/v1/user
+# @baseUrl = http://localhost:7000/api/v1/user
+
+@baseUrl = http://34.101.232.107:7000/api/v1/user
 
 ### Get a random clever quote
 GET {{baseUrl}}/profanity
@@ -12,7 +14,7 @@ Content-Type: application/json
 {
     "texts":[
         {
-            "text":"ini text",
+            "text":"ini text motherfucker",
             "time":"08-04-2021"
         },
         {
@@ -32,7 +34,7 @@ Content-Type: application/json
             "time":"08-04-2021"
         },
         {
-            "text":"motherfucker you satanais",
+            "text":"fuck your ass",
             "time":"08-04-2021"
         },
         {
@@ -40,13 +42,18 @@ Content-Type: application/json
             "time":"08-04-2021"
         },
         {
-            "text":"mantap",
+            "text":"mantap bitch",
+            "time":"08-04-2021"
+        },
+        {
+            "text":"whatup my nigga",
             "time":"08-04-2021"
         }
+
     ]
 }
 
 
-### GET NO DATA TEXT
+### GET NO DATA TEXT : Untuk mengecek list yang di tangkap server
 GET {{baseUrl}}/check
 Accept: application/hal+json
